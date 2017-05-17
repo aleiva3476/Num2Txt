@@ -18,7 +18,7 @@ Console.WriteLine(txt3);
 ```
 include 'Num2Txt.php';
 
-$o = new Num2Txt();
+$o = new  \Alp3476\Num2Txt();
 echo $o->toString(3527.25) . PHP_EOL;
 echo $o->toString(12342245281.890) . PHP_EOL;
 echo $o->toString(0.253) . PHP_EOL;

@@ -1,5 +1,7 @@
 <?php
 
+namespace Alp3476;
+
 class Num2Txt
 {
     private $textoCentenas = ['uno', 'dos', 'tres', 'cuatro', 'quinientos ', 'seis', 'sete', 'ocho', 'nove'];
