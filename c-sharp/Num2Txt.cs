@@ -6,7 +6,7 @@ namespace Alp3476
     /// <summary>
     /// Transforma un valor numérico en su equivalente en texto.
     /// </summary>
-    public static class A2Num2Txt
+    public static class Num2Txt
     {
         private static string[] textoCentenas = { "uno", "dos", "tres", "cuatro", "quinientos ", "seis", "sete", "ocho", "nove" };
         private static string[] textoDecenas = { "uno ", "veinti", "treinta ", "cuarenta ", "cincuenta ", "sesenta ", "setenta ", "ochenta ", "noventa " };
@@ -21,7 +21,7 @@ namespace Alp3476
         public static string ToString(string numero)
         {
             double.TryParse(numero, out double valor);
-            return A2Num2Txt.ToString(valor);
+            return Num2Txt.ToString(valor);
         }
 
         /// <summary>
