@@ -6,15 +6,15 @@ Examples:
 
 ### C#
 ```
-string txt1 = Alp3476.A2Num2Txt.ToString("3528.25");
+string txt1 = Alp3476.Num2Txt.ToString("3528.25");
 Console.WriteLine(txt1);
 // tres mil quinientos veintiocho con veinticinco
 
-string txt2 = Alp3476.A2Num2Txt.ToString(123456);
+string txt2 = Alp3476.Num2Txt.ToString(123456);
 Console.WriteLine(txt2);
 // ciento veintitres mil cuatrocientos cincuenta y seis
 
-string txt3 = Alp3476.A2Num2Txt.ToString(-258241.2);
+string txt3 = Alp3476.Num2Txt.ToString(-258241.2);
 Console.WriteLine(txt3);
 // menos doscientos cincuenta y ocho mil doscientos cuarenta y uno con veinte
 
